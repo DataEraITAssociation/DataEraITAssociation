@@ -8,7 +8,7 @@ author_image_url: https://smartcdn.prod.postmedia.digital/edmontonjournal/wp-con
 tags: [Jialin Qiu, Jialin Biography]
 ---
 
-Welcome to this blog..
+Welcome to this biography.
 
 <!--truncate-->
 
