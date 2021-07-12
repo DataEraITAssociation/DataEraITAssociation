@@ -8,8 +8,4 @@ author_image_url: https://smartcdn.prod.postmedia.digital/edmontonjournal/wp-con
 tags: [Jialin Qiu, Jialin Biography]
 ---
 
-Welcome to this biography.
-
-<!--truncate-->
-
-Hello!
+Hello! My name is Jialin and I am currently going to school at Lillian Osborne High School in Edmonton, Alberta. I enjoy playing badminton and volleyball and I also love reading history. My role in this project is to take a leading position in this website's development.
