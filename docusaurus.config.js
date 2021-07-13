@@ -4,7 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "DataEraIt Association Project",
-  tagline: "Some tutorials",
+  tagline: "Learn Coding with DataEra IT Association - Follow our examples to learn coding step by step.",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -29,8 +29,12 @@ module.exports = {
 
         { to: "/python", label: "Python", position: "left" },
         { to: "/javascript", label: "JavaScript", position: "left" },
+        { to : "/blog", label: "Who built the sites?", position: "left"},
+        
+
+
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/DataEraITAssociation/DataEraITAssociation",
           label: "GitHub",
           position: "right"
         }
