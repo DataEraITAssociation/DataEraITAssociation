@@ -22,21 +22,23 @@ module.exports = {
       },
       items: [
         {
-          type: "doc",
-          docId: "intro",
           position: "left",
-          label: "Tutorial"
+          label: "Tutorials",
+          items: [
+            { to: "/docs/Docusaurus/GetStarted", label: "Docusaurus", position: "left" },
+            { to: "/python", label: "Python", position: "left" },
+            { to: "/javascript", label: "JavaScript", position: "left" },
+            { to: "/java", label: "Java", position: "left" },
+            { to: "/robotics", label: "Robotics", position: "left" },
+            { to: "/dataScience", label: "Data Science", position: "left" },
+            { to: "/unity", label: "Unity", position: "left" },
+            { to: "/ccc", label: "CCC", position: "left" },
+          ],
         },
+        { to: "/contributors", label: "Contributors", position: "left" },
 
-        { to: "/python", label: "Python", position: "left" },
-        { to: "/javascript", label: "JavaScript", position: "left" },
-        { to: "/java", label: "Java", position: "left" },
-        { to: "/robotics", label: "Robotics", position: "left" },
-        { to: "/dataScience", label: "Data Science", position: "left" },
-        { to: "/unity", label: "Unity", position: "left" },
-        { to: "/ccc", label: "CCC", position: "left" },
-        { to: "/blog", label: "Who built the sites?", position: "left" },
 
+        { to: "/blog", label: "Blog", position: "right" },
         {
           href: "https://github.com/DataEraITAssociation/DataEraITAssociation",
           label: "GitHub",
@@ -101,13 +103,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/master/website/"
+          editUrl: "https://github.com/DataEraITAssociation/DataEraITAssociation/tree/main/"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+            "https://github.com/DataEraITAssociation/DataEraITAssociation/tree/main/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
