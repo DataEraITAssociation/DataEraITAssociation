@@ -3,10 +3,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "DataEraIt Association Project",
+  title: "DataEra It Association Project",
   tagline:
     "Learn Coding with DataEra IT Association - Follow our examples to learn coding step by step.",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://dataera.ca",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -15,7 +15,7 @@ module.exports = {
   projectName: "DataEraIt Association Project", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "DataEraIt Association",
+      title: "DataEra Project Hub",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg"
@@ -89,7 +89,7 @@ module.exports = {
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} DataEra IT Association. Built with Docusaurus.`
     },
     prism: {
       theme: lightCodeTheme,
