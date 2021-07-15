@@ -8,7 +8,7 @@ sidebar_label: "Learn some Markdown"
 
 In our first page, we create a file with extension ".md" which means you can edit and format its content with [Markdown langugae](https://daringfireball.net/projects/markdown/). Personaly, I like the cheetsheet from https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet . You may find more details in both link.
 
-Now let the fun start!
+Now let the fun starts!
 
 ## Add a few headers
 
@@ -72,4 +72,101 @@ Now you should get something like this.
 > 
 > Let me know if you like it.
 
-Next we will go more advance mode with React.js component.
+## Code Blocks
+
+Markdown code blocks are supported with Syntax highlighting in Docusaurus.
+
+    ```jsx title="src/components/HelloDocusaurus.js"
+    function HelloDocusaurus() {
+        return (
+            <h1>Hello, Docusaurus!</h1>
+        )
+    }
+    ```
+
+```jsx title="src/components/HelloDocusaurus.js"
+function HelloDocusaurus() {
+  return <h1>Hello, Docusaurus!</h1>;
+}
+```
+
+## Admonitions
+
+Docusaurus has a special syntax to create admonitions and callouts:
+```
+:::note
+
+The content and title *can* include markdown.
+
+:::
+
+:::tip You can specify an optional title
+
+Heads up! Here's a pro-tip.
+
+:::
+
+:::info
+
+Useful information.
+
+:::
+
+:::caution
+
+Warning! You better pay attention!
+
+:::
+
+:::danger
+
+Danger danger, mayday!
+
+:::
+
+:::note Your Title
+
+The content and title *can* include markdown.
+
+:::
+```
+
+They should look like these. **You also can put a title as the last piece.**
+
+:::note
+
+The content and title *can* include markdown.
+
+:::
+
+:::tip You can specify an optional title
+
+Heads up! Here's a pro-tip.
+
+:::
+
+:::info
+
+Useful information.
+
+:::
+
+:::caution
+
+Warning! You better pay attention!
+
+:::
+
+:::danger
+
+Danger danger, mayday!
+
+:::
+
+:::note Your Title
+
+The content and title *can* include markdown.
+
+:::
+
+Next we will go more advance mode with React.js component. Before that, I just want to tell some ```magic trick```~~~
