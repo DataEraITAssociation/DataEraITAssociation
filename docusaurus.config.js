@@ -6,7 +6,7 @@ module.exports = {
   title: "DataEra It Association Project",
   tagline:
     "Learn Coding with DataEra IT Association - Follow our examples to learn coding step by step.",
-  url: "https://dataera.ca",
+  url: "https://doc.dataera.ca",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -17,8 +17,9 @@ module.exports = {
     navbar: {
       title: "DataEra Project Hub",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg"
+        alt: "DataEra IT Association",
+        src: "img/bad_logo.png",
+        href: 'https://dataera.ca/'
       },
       items: [
         {

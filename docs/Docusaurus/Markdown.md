@@ -169,4 +169,62 @@ The content and title *can* include markdown.
 
 :::
 
-Next we will go more advance mode with React.js component. Before that, I just want to tell some ```magic trick```~~~
+## Add some HTML 
+
+:::info
+
+hm... may be not HTML but JSX
+
+:::
+
+Now let's copy and paste these code to your page.
+
+```html
+
+<div class="avatar avatar--vertical">
+  <img
+    class="avatar__photo avatar__photo--xl"
+    src="https://avatars1.githubusercontent.com/u/977348?s=460&amp;v=4"
+  />
+  <div class="avatar__intro">
+    <div class="avatar__name">Jordan Walke</div>
+    <small class="avatar__subtitle">
+      Maker of things: ReactJS. Working on:
+      <a href="https://twitter.com/reasonml">@reasonml</a>. At: Facebook
+      Engineering.
+    </small>
+  </div>
+</div>
+
+```
+
+It should look like this.
+
+![Add HTML](/img/docs/docusaurus/add_html.png)
+
+The smart people like you might realize there is some warning in the console. Basically it says it doesn't like "class" but "className".
+
+Oh Yea~!? Docusaurus is built with React.js thus it likes JSX instead.
+
+Now let's change all the ```class=``` to ```className=``` like below and refresh your page to see if the warning is gone or not.
+
+```jsx
+
+<div className="avatar avatar--vertical">
+  <img
+    className="avatar__photo avatar__photo--xl"
+    src="https://avatars1.githubusercontent.com/u/977348?s=460&amp;v=4"
+  />
+  <div className="avatar__intro">
+    <div className="avatar__name">Jordan Walke</div>
+    <small className="avatar__subtitle">
+      Maker of things: ReactJS. Working on:
+      <a href="https://twitter.com/reasonml">@reasonml</a>. At: Facebook
+      Engineering.
+    </small>
+  </div>
+</div>
+
+```
+
+Later we will talk about React.js component and JSX. Before that, I just want to tell some ```magic trick```~~~
