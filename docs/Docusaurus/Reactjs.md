@@ -85,7 +85,7 @@ import { BGColor } from './BGColor';
 
 ```
 
-![Add component reference](/img/docs/docusaurus/add_file_reference.png)
+![Add component reference](/img/docs/docusaurus/Add_file_reference.png)
 
 Now you should have more fun to code with ReactJS.
 
