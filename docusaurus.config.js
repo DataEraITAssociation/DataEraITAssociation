@@ -28,7 +28,7 @@ module.exports = {
           items: [
             { to: "/docs/Docusaurus/GetStarted", label: "Docusaurus", position: "left" },
             { to: "/python", label: "Python", position: "left" },
-            { to: "/javascript", label: "JavaScript", position: "left" },
+            { to: "/docs/javascript/test", label: "JavaScript", position: "left" },
             { to: "/java", label: "Java", position: "left" },
             { to: "/robotics", label: "Robotics", position: "left" },
             { to: "/dataScience", label: "Data Science", position: "left" },
