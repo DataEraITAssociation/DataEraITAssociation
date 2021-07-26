@@ -43,7 +43,11 @@ module.exports = {
               label: "Robotics",
               position: "left"
             },
-            { to: "/dataScience", label: "Data Science", position: "left" },
+            {
+              to: "/docs/Data_Science/Data_Science",
+              label: "Data Science",
+              position: "left"
+            },
             { to: "/unity", label: "Unity", position: "left" },
             { to: "/ccc", label: "CCC", position: "left" }
           ]
