@@ -19,25 +19,32 @@ module.exports = {
       logo: {
         alt: "DataEra IT Association",
         src: "img/bad_logo.png",
-        href: 'https://dataera.ca/'
+        href: "https://dataera.ca/"
       },
       items: [
         {
           position: "left",
           label: "Tutorials",
           items: [
-            { to: "/docs/Docusaurus/GetStarted", label: "Docusaurus", position: "left" },
+            {
+              to: "/docs/Docusaurus/GetStarted",
+              label: "Docusaurus",
+              position: "left"
+            },
             { to: "/python", label: "Python", position: "left" },
-            { to: "/docs/javascript/test", label: "JavaScript", position: "left" },
+            {
+              to: "/docs/JavaScript/JavaScript",
+              label: "JavaScript",
+              position: "left"
+            },
             { to: "/java", label: "Java", position: "left" },
             { to: "/robotics", label: "Robotics", position: "left" },
             { to: "/dataScience", label: "Data Science", position: "left" },
             { to: "/unity", label: "Unity", position: "left" },
-            { to: "/ccc", label: "CCC", position: "left" },
-          ],
+            { to: "/ccc", label: "CCC", position: "left" }
+          ]
         },
         { to: "/contributors", label: "Contributors", position: "left" },
-
 
         { to: "/blog", label: "Blog", position: "right" },
         {
@@ -104,7 +111,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/DataEraITAssociation/DataEraITAssociation/tree/main/"
+          editUrl:
+            "https://github.com/DataEraITAssociation/DataEraITAssociation/tree/main/"
         },
         blog: {
           showReadingTime: true,
