@@ -38,7 +38,11 @@ module.exports = {
               position: "left"
             },
             { to: "/java", label: "Java", position: "left" },
-            { to: "/robotics", label: "Robotics", position: "left" },
+            {
+              to: "/docs/Robotics/Robotics",
+              label: "Robotics",
+              position: "left"
+            },
             { to: "/dataScience", label: "Data Science", position: "left" },
             { to: "/unity", label: "Unity", position: "left" },
             { to: "/ccc", label: "CCC", position: "left" }
