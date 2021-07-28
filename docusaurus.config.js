@@ -13,6 +13,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "facebook", // Usually your GitHub org/user name.
   projectName: "DataEraIt Association Project", // Usually your repo name.
+  
   themeConfig: {
     navbar: {
       title: "DataEra Project Hub",
@@ -31,7 +32,22 @@ module.exports = {
               label: "Docusaurus",
               position: "left"
             },
-            { to: "/python", label: "Python", position: "left" },
+            { to: "/python",
+              label: "Python", 
+              position: "left",
+              type: 'catagory',
+  
+              items: [
+                'Python',
+                {
+                  type: 'category',
+                  label: 'python',
+                  items: ['WinInstallation', 'MacInstallation'],
+                },
+              ],
+
+            
+            },
             {
               to: "/docs/JavaScript/JavaScript",
               label: "JavaScript",
