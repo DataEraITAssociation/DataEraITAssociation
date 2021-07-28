@@ -13,3 +13,14 @@ sidebar_label: "JavaScript"
 The user should learn basic javascript knowledge:
 <a href="https://www.w3schools.com/js/default.asp/">Visit W3Schools.com to learn more about Javascript</a>
 :::
+
+:::info
+
+Show an alert in a web page with the following:
+
+:::
+
+```jsx title="Show an Alert"
+alert("hello, world");
+
+```
