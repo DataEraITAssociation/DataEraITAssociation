@@ -3,24 +3,24 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "DataEra It Association Project",
+  title: "Wanna start coding",
   tagline:
-    "Learn Coding with DataEra IT Association - Follow our examples to learn coding step by step.",
+    "Follow our examples to learn coding step by step.",
   url: "https://doc.dataera.ca",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "DataEraIt Association Project", // Usually your repo name.
+  organizationName: "DataEra IT Association", // Usually your GitHub org/user name.
+  projectName: "DataEra Projects", // Usually your repo name.
   
   themeConfig: {
     navbar: {
-      title: "DataEra Project Hub",
+      title: "DataEra Projects",
       logo: {
         alt: "DataEra IT Association",
-        src: "img/bad_logo.png",
-        href: "https://dataera.ca/"
+        src: "img/Logo.png",
+        href: "/",
       },
       items: [
         {
@@ -71,6 +71,7 @@ module.exports = {
         { to: "/contributors", label: "Contributors", position: "left" },
 
         { to: "/blog", label: "Blog", position: "right" },
+        { href: "https://dataera.ca", label: "DataEra.ca Home", position: "right" },
         {
           href: "https://github.com/DataEraITAssociation/DataEraITAssociation",
           label: "GitHub",
@@ -94,17 +95,9 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus"
+              href: "https://discord.gg/KujcKyywNW"
             },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus"
-            }
           ]
         },
         {
@@ -116,7 +109,7 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus"
+              href: "https://github.com/DataEraITAssociation/DataEraITAssociation"
             }
           ]
         }
@@ -128,6 +121,7 @@ module.exports = {
       darkTheme: darkCodeTheme
     }
   },
+  plugins: ['docusaurus-plugin-sass'],
   presets: [
     [
       "@docusaurus/preset-classic",
