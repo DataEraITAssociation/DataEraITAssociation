@@ -21,6 +21,7 @@ module.exports = {
         alt: "DataEra IT Association",
         src: "img/Logo.png",
         href: "/",
+      
       },
       items: [
         {
@@ -47,6 +48,7 @@ module.exports = {
               ],
 
             
+              position: "left"
             },
             {
               to: "/docs/JavaScript/JavaScript",
