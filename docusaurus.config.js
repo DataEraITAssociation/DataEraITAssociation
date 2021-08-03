@@ -33,7 +33,7 @@ module.exports = {
               label: "Docusaurus",
               position: "left"
             },
-            { to: "/python",
+            { to: "/docs/Python/python",
               label: "Python", 
               position: "left",
               type: 'catagory',
