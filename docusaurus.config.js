@@ -4,8 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Wanna start coding",
-  tagline:
-    "Follow our examples to learn coding step by step.",
+  tagline: "Follow our examples to learn coding step by step.",
   url: "https://doc.dataera.ca",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -13,15 +12,14 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "DataEra IT Association", // Usually your GitHub org/user name.
   projectName: "DataEra Projects", // Usually your repo name.
-  
+
   themeConfig: {
     navbar: {
       title: "DataEra Projects",
       logo: {
         alt: "DataEra IT Association",
         src: "img/Logo.png",
-        href: "/",
-      
+        href: "/"
       },
       items: [
         {
@@ -33,21 +31,21 @@ module.exports = {
               label: "Docusaurus",
               position: "left"
             },
-            { to: "/docs/Python/python",
-              label: "Python", 
+            {
+              to: "/docs/Python/python",
+              label: "Python",
               position: "left",
-              type: 'catagory',
-  
+              type: "catagory",
+
               items: [
-                'Python',
+                "Python",
                 {
-                  type: 'category',
-                  label: 'python',
-                  items: ['WinInstallation', 'MacInstallation'],
-                },
+                  type: "category",
+                  label: "python",
+                  items: ["WinInstallation", "MacInstallation"]
+                }
               ],
 
-            
               position: "left"
             },
             {
@@ -55,7 +53,19 @@ module.exports = {
               label: "JavaScript",
               position: "left"
             },
-            { to: "/java", label: "Java", position: "left" },
+            { to: "docs/Java/Java", 
+            label: "Java", 
+            position: "left" 
+            type: "catagory",
+
+            items: [
+              "Java",
+              {
+                type: "category",
+                label: "Java",
+                items: ["WinInstallation", "MacInstallation"]
+            
+          },
             {
               to: "/docs/Robotics/Robotics",
               label: "Robotics",
@@ -73,7 +83,11 @@ module.exports = {
         { to: "/contributors", label: "Contributors", position: "left" },
 
         { to: "/blog", label: "Blog", position: "right" },
-        { href: "https://dataera.ca", label: "DataEra.ca Home", position: "right" },
+        {
+          href: "https://dataera.ca",
+          label: "DataEra.ca Home",
+          position: "right"
+        },
         {
           href: "https://github.com/DataEraITAssociation/DataEraITAssociation",
           label: "GitHub",
@@ -99,7 +113,7 @@ module.exports = {
             {
               label: "Discord",
               href: "https://discord.gg/KujcKyywNW"
-            },
+            }
           ]
         },
         {
@@ -111,7 +125,8 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/DataEraITAssociation/DataEraITAssociation"
+              href:
+                "https://github.com/DataEraITAssociation/DataEraITAssociation"
             }
           ]
         }
@@ -123,7 +138,7 @@ module.exports = {
       darkTheme: darkCodeTheme
     }
   },
-  plugins: ['docusaurus-plugin-sass'],
+  plugins: ["docusaurus-plugin-sass"],
   presets: [
     [
       "@docusaurus/preset-classic",
