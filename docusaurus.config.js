@@ -53,19 +53,7 @@ module.exports = {
               label: "JavaScript",
               position: "left"
             },
-            { to: "docs/Java/Java", 
-            label: "Java", 
-            position: "left" 
-            type: "catagory",
-
-            items: [
-              "Java",
-              {
-                type: "category",
-                label: "Java",
-                items: ["WinInstallation", "MacInstallation"]
-            
-          },
+            { to: "docs/Java/Java", label: "Java", position: "left" },
             {
               to: "/docs/Robotics/Robotics",
               label: "Robotics",
