@@ -64,8 +64,8 @@ module.exports = {
               label: "Data Science",
               position: "left"
             },
-            { to: "/docs/Unity/unity", label: "Unity", position: "left" },
-            { to: "/docs/CCC/ccc", label: "CCC", position: "left" }
+            { to: "/unity", label: "Unity", position: "left" },
+            { to: "/ccc", label: "CCC", position: "left" }
           ]
         },
         { to: "/contributors", label: "Contributors", position: "left" },
