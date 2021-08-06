@@ -66,26 +66,29 @@ We will start by demonstrating how to make the robot move forward for 3 seconds,
 
 Locate the Forward element block in the side menu, and click on the colored portion of the block. This will add the Forward block to the workspace. Keep the speed at 100, and enter a duration of 3.0 seconds. ​
 
-​\*Tip: If you add the wrong Element Block, you can delete it by right-clicking on the top black bar of that block within the workspace.
+​**Tip**: If you add the wrong Element Block, you can delete it by right-clicking on the top black bar of that block within the workspace.
 Picture
-Step 5
+
+## Step 5
 
 Now we will make the robot speak.
 
 Locate the "Say(Wait)" element in the side menu, and click on the colored portion to add it to the workspace. For fun, add your own custom text into the field to have your robot speak your name!
 
-\*Tip: The Element Blocks can be easily rearranged within the workspace by simply dragging them around. The software will automatically reconnect them in order.
+**Tip**: The Element Blocks can be easily rearranged within the workspace by simply dragging them around. The software will automatically reconnect them in order.
 Picture
-Step 6
+
+## Step 6
 
 Now press the START button in the top left and the robot will begin executing the command of each element. Notice how the RoboScratch elements will highlight in Yellow as they are being executed.
 Picture
 
-Step 7 - View The Code
+## Step 7 - View The Code
 
 The goal of RoboScratch is to teach you how to program. This is done by converting your RoboScratch elements into real code! The code can be viewed by pressing the JavaScript Tab
 Picture
-Finished!
+
+## Finished!
 
 You're now ready to program in RoboScratch! Start experimenting by adding Elements to create your own programs. Hover your mouse cursor over the blue question marks to find out what an element does.
 
