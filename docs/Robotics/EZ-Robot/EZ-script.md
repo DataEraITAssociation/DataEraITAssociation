@@ -14,9 +14,9 @@ ARC also includes the entire script manual with syntax examples for every functi
 
 ## Scripting Controls
 
-Within the Add Control dialog box of ARC, is a section for Scripting Controls. The controls within this category are standalone Scripting Controls. Keep in mind that nearly every control has scripting capability within their configuration dialog as well.
+Within the Add Control dialog box of ARC, is a section for Scripting Controls. The controls within this category are standalone Scripting Controls. Keep in mind that nearly every control has scripting capability within their configuration dialog as well.Yepyep
 
-(Picture)
+![instructions](https://www.ez-robot.com/uploads/1/2/6/9/126941806/controls-2_orig.png)
 
 ## Edit Scripts
 
