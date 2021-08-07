@@ -6,8 +6,12 @@ sidebar_label: Hello World program
 
 ## Here's the Hello World program
 
-```jsx title="src/components/HelloDocusaurus.js"
-function HelloWorld() {
-  return <h1>How are you doing ?</h1>;
+```jsx title="src/components/Main.java"
+// Your First Program
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
 }
 ```
