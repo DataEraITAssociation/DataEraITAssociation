@@ -64,8 +64,9 @@ module.exports = {
               label: "Data Science",
               position: "left"
             },
-            { to: "/unity", label: "Unity", position: "left" },
-            { to: "/ccc", label: "CCC", position: "left" }
+            { to: "/docs/Unity/unity", label: "Unity", position: "left" },
+            { to: "/docs/CCC/ccc", label: "CCC", position: "left" },
+            { to: "/docs/recommended_youtube_channels/youtube", label: "Youtube", position: "left" }
           ]
         },
         { to: "/contributors", label: "Contributors", position: "left" },
