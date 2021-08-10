@@ -31,7 +31,8 @@ You may recognize this approach as being similar to creating flow charts and pro
 ## Element Blocks
 
 The elements blocks available in RoboScratch (camera tracking, actions, sound, etc.) are only available when the respective Controls have been added to your project. For example, if you load a project that does not have a Camera Control, RoboScratch will not display camera related Element Blocks. To add camera related elements, simply add and configure a Camera Control to the project. You can learn more about ARC Controls by clicking [HERE](https://www.ez-robot.com/learn-robotics-robot-controls.html).
-Picture
+
+![Picture](https://www.ez-robot.com/uploads/1/2/6/9/126941806/arc-roboscratch-workspace-v2_orig.jpg)
 
 ## Revealing JavaScript Code
 
@@ -39,8 +40,9 @@ Picture
 
 Think of RoboScratch as training wheels for programming!
 
-To make the magic happen, press the Javascript Tab above the Workspace.  
-Picture
+To make the magic happen, press the Javascript Tab above the Workspace.
+
+![Picture](https://www.ez-robot.com/uploads/1/2/6/9/126941806/arc-roboscratch-revealing-javascript_orig.jpg)
 
 ## Step by Step Instructions
 
@@ -53,21 +55,25 @@ Load the default example project for your robot from either the top menu's File-
 Establish a connection to your robot. This was also covered in the assembly tutorials. Connect to the robot's WiFi network and press the Connect button in ARC's connection control. Once connected, press the Start button on the Camera Control to begin streaming the video.
 
 **Note**: The Camera Control may default to the built-in camera on your computer. If your computer has a high-resolution camera, you may get a message telling you that you'll need to upgrade ARC to a paid subscription of the software. The camera in EZ-Robots will work with all levels of ARC (including the Free version). Simply click on the "Video Device" dropdown menu, and choose the EZB camera.
-Picture
-Picture
+![Picture](https://www.ez-robot.com/uploads/1/2/6/9/126941806/arc-camera-selection-1_orig.jpg)
+
+![Picture](https://www.ez-robot.com/uploads/1/2/6/9/126941806/arc-camera-selection-1_orig.jpg)
 
 ## Step 3
 
 Press the RoboScratch window button to load the RoboScratch designer view.
-Picture
-Step 4
+
+![Picture](https://www.ez-robot.com/uploads/1/2/6/9/126941806/arc-roboscratch-button-2_orig.jpg)
+
+##Step 4
 
 We will start by demonstrating how to make the robot move forward for 3 seconds, stop and speak a phrase.
 
 Locate the Forward element block in the side menu, and click on the colored portion of the block. This will add the Forward block to the workspace. Keep the speed at 100, and enter a duration of 3.0 seconds. ​
 
 ​**Tip**: If you add the wrong Element Block, you can delete it by right-clicking on the top black bar of that block within the workspace.
-Picture
+
+![Picture](https://www.ez-robot.com/uploads/1/2/6/9/126941806/arc-roboscratch-step-4-forward_orig.jpg)
 
 ## Step 5
 
@@ -76,17 +82,20 @@ Now we will make the robot speak.
 Locate the "Say(Wait)" element in the side menu, and click on the colored portion to add it to the workspace. For fun, add your own custom text into the field to have your robot speak your name!
 
 **Tip**: The Element Blocks can be easily rearranged within the workspace by simply dragging them around. The software will automatically reconnect them in order.
-Picture
+
+![Picture](https://www.ez-robot.com/uploads/1/2/6/9/126941806/arc-roboscratch-step-5-say-wait_orig.jpg)
 
 ## Step 6
 
 Now press the START button in the top left and the robot will begin executing the command of each element. Notice how the RoboScratch elements will highlight in Yellow as they are being executed.
-Picture
+
+![Picture](https://www.ez-robot.com/uploads/1/2/6/9/126941806/arc-roboscratch-step-6-executing_orig.jpg)
 
 ## Step 7 - View The Code
 
 The goal of RoboScratch is to teach you how to program. This is done by converting your RoboScratch elements into real code! The code can be viewed by pressing the JavaScript Tab
-Picture
+
+![Picture](https://www.ez-robot.com/uploads/1/2/6/9/126941806/arc-roboscratch-javascript-step-7-v2_orig.jpg)
 
 ## Finished!
 
