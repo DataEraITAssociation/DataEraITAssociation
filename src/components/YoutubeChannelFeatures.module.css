@@ -1,0 +1,23 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+.features {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+  }
+  
+  .featureImg {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+  }
+  
+  .featureLink, .featureLink:active, .featureLink:visited, .featureLink:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .featureDesc {
+    color: gray;
+  }

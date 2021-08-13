@@ -1,62 +1,95 @@
 import React from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Learn Python',
+    src: require( '../../static/img/homepage/python-logo.png' ).default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Everyone is talking about Python, and for good reason. With an exponentially growing community around data science, machine learning, AI, web dev and more, Python is a language that opens programming access to the world.
       </>
     ),
+    url: '/docs/Python/python',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Learn Java',
+    src: require( '../../static/img/homepage/java-logo.png' ).default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Java is very versatile as it is used for programming applications on the web, mobile, desktop, etc. using different platforms. Also, Java has many features such as dynamic coding, multiple security features, platform-independent characteristics, network-centric designing, etc. that make it quite versatile.
       </>
     ),
+    url: '/docs/Java/Java',
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Learn Javascript',
+    src: require( '../../static/img/homepage/javascript-logo.png' ).default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The most obvious reason for learning JavaScript is if you have hopes of becoming a web developer. Even if you haven’t got your heart set on a tech career, being proficient in this language will enable you to build websites from scratch—a pretty useful skill to have in today’s job market!
       </>
     ),
+    url: '/docs/JavaScript/JavaScript',
+  },
+  {
+    title: 'Learn Data Science',
+    src: require( '../../static/img/homepage/datascience-logo.jpeg' ).default,
+    description: (
+      <>
+        Data scientists know how to use their skills in math, statistics, programming, and other related subjects to organize large data sets. Then, they apply their knowledge to uncover solutions hidden in the data to take on business challenges and goals.
+      </>
+    ),
+    url: '/docs/Data_Science/Data_Science',
+  },
+  {
+    title: 'Canadian Computing Competition',
+    src: require( '../../static/img/homepage/ccc-logo.jpeg' ).default,
+    description: (
+      <>
+        The Canadian Computing Competition (CCC) is a fun challenge for secondary school students with an interest in programming. It is an opportunity for students to test their ability in designing, understanding and implementing algorithms.
+      </>
+    ),
+    url: '/docs/CCC/ccc',
+  },
+  {
+    title: 'Learn Robotics',
+    src: require( '../../static/img/homepage/robotics-logo.png' ).default,
+    description: (
+      <>
+        Through robotics, students can learn more than just how to code. They can learn skills in leadership, community involvement, communicating across different technology platforms, finding their passions, and teamwork, which will position them for success well beyond their school years.
+      </>
+    ),
+    url: '/docs/Robotics/Robotics',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature( { src, title, description, url } ) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
+    <div className={ clsx( 'col col--4' ) }>
+      <Link className={ styles.featureLink } to={ url }>
+        <div className="text--center">
+          <img className={ styles.featureImg } alt={ title } src={ src } />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <h3>{ title }</h3>
+          <p className={ styles.featureDesc }>{ description }</p>
+        </div>
+      </Link>
     </div>
   );
 }
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
+    <section className={ styles.features }>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          { FeatureList.map( ( props, idx ) => (
+            <Feature key={ idx } { ...props } />
+          ) ) }
         </div>
       </div>
     </section>
