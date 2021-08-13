@@ -1,9 +1,9 @@
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require( "prism-react-renderer/themes/github" );
+const darkCodeTheme = require( "prism-react-renderer/themes/dracula" );
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Wanna start coding",
+  title: "Let's get started",
   tagline: "Follow our examples to learn coding step by step.",
   url: "https://doc.dataera.ca",
   baseUrl: "/",
@@ -26,34 +26,20 @@ module.exports = {
           position: "left",
           label: "Tutorials",
           items: [
-            {
-              to: "/docs/Docusaurus/GetStarted",
-              label: "Docusaurus",
-              position: "left"
-            },
+
             {
               to: "/docs/Python/python",
               label: "Python",
               position: "left",
               type: "catagory",
-
-              items: [
-                "Python",
-                {
-                  type: "category",
-                  label: "python",
-                  items: ["WinInstallation", "MacInstallation"]
-                }
-              ],
-
               position: "left"
             },
+            { to: "docs/Java/Java", label: "Java", position: "left" },
             {
               to: "/docs/JavaScript/JavaScript",
               label: "JavaScript",
               position: "left"
             },
-            { to: "docs/Java/Java", label: "Java", position: "left" },
             {
               to: "/docs/Robotics/Robotics",
               label: "Robotics",
@@ -66,7 +52,12 @@ module.exports = {
             },
             { to: "/docs/Unity/unity", label: "Unity", position: "left" },
             { to: "/docs/CCC/ccc", label: "CCC", position: "left" },
-            { to: "/docs/recommended_youtube_channels/youtube", label: "Youtube", position: "left" }
+            { to: "/docs/recommended_youtube_channels/youtube", label: "Youtube", position: "left" },
+            {
+              to: "/docs/Docusaurus/GetStarted",
+              label: "Docusaurus",
+              position: "left"
+            },
           ]
         },
         { to: "/contributors", label: "Contributors", position: "left" },
@@ -120,20 +111,20 @@ module.exports = {
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} DataEra IT Association. Built with Docusaurus.`
+      copyright: `Copyright © ${ new Date().getFullYear() } DataEra IT Association. Built with Docusaurus.`
     },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme
     }
   },
-  plugins: ["docusaurus-plugin-sass"],
+  plugins: [ "docusaurus-plugin-sass" ],
   presets: [
     [
       "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve( "./sidebars.js" ),
           // Please change this to your repo.
           editUrl:
             "https://github.com/DataEraITAssociation/DataEraITAssociation/tree/main/"
@@ -145,7 +136,7 @@ module.exports = {
             "https://github.com/DataEraITAssociation/DataEraITAssociation/tree/main/"
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css")
+          customCss: require.resolve( "./src/css/custom.css" )
         }
       }
     ]

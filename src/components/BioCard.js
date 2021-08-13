@@ -1,4 +1,5 @@
 import React from 'react';
+import clsx from 'clsx';
 import useThemeContext from '@theme/hooks/useThemeContext';
 import Link from '@docusaurus/Link';
 import styles from './BioCard.module.css';
@@ -13,7 +14,7 @@ const BioCard = ( { name, role, profileImage, description, to } ) => {
                     <div className="card__header">
                         <div className="avatar">
                             <img
-                                className="avatar__photo"
+                                className={ clsx( "avatar__photo", styles.avatar ) }
                                 src={ require( '@site/static' + profileImage ).default }
                             />
                             <div className="avatar__intro">

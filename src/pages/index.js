@@ -6,6 +6,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
+import YoutubeChannelFeatures from "../components/YoutubeChannelFeatures";
 import SnakeGame from "../components/SnakeGame";
 
 function HomepageHeader() {
@@ -17,14 +18,6 @@ function HomepageHeader() {
           <div className="col col--6">
             <h1 className="hero__title">{siteConfig.title}</h1>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
-            <div className={styles.buttons}>
-              <Link
-                className="button button--secondary button--lg"
-                to="/docs/intro"
-              >
-                Learn Coding with simple excercises ⏱️
-              </Link>
-            </div>
           </div>
           <div className="col col--6">
             <SnakeGame />
@@ -45,6 +38,8 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <h2 className="text--center">Recommended Youtube Channels</h2>
+        <YoutubeChannelFeatures />
       </main>
     </Layout>
   );
