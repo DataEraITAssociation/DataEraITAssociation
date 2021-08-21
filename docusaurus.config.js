@@ -5,13 +5,14 @@ const darkCodeTheme = require( "prism-react-renderer/themes/dracula" );
 module.exports = {
   title: "Let's get started",
   tagline: "Follow our examples to learn coding step by step.",
-  url: "https://doc.dataera.ca",
+  url: "https://georgezhang.github.io/DataEraITAssociation.github.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "DataEra IT Association", // Usually your GitHub org/user name.
-  projectName: "DataEra Projects", // Usually your repo name.
+  projectName: "DataEraITAssociation.github.io", // Usually your repo name.
+  trailingSlash: false,
 
   themeConfig: {
     navbar: {
