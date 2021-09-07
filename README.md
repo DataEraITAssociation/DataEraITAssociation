@@ -26,11 +26,19 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment
 
+We use this module to deploy the project directly:
+https://www.npmjs.com/package/gh-pages
+
 ```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+yarn build
 
-GIT_USER=<Your GitHub username> DEPLOYMENT_BRANCH=gh-pages yarn deploy
-
+yarn gh
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+This command will ask for user name and password which you require a Personal access tokens in https://github.com/settings/tokens .
+
+This token could be expired for a few weeks.
+
+If gh-pages fails, you may find that you need to manually clean up the cache directory. To remove the cache directory, run node_modules/gh-pages/bin/gh-pages-clean or remove node_modules/.cache/gh-pages.
