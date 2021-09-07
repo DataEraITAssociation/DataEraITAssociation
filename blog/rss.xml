@@ -2,90 +2,90 @@
 <rss version="2.0">
     <channel>
         <title>Let's get started Blog</title>
-        <link>https://dataeraitassociation.github.io/blog</link>
+        <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog</link>
         <description>Let's get started Blog</description>
         <lastBuildDate>Thu, 29 Jul 2021 20:06:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Jenny's Biography]]></title>
-            <link>https://dataeraitassociation.github.io/blog/jenny_bio</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/jenny_bio</link>
             <guid>jenny_bio</guid>
             <pubDate>Thu, 29 Jul 2021 20:06:45 GMT</pubDate>
             <description><![CDATA[Hi everyone! My name is Jenny and I will be attending Gr 10 at OSA this fall. My hobbies include reading, playing soccer, and playing video games. I am looking forward to working with everyone on this project!]]></description>
         </item>
         <item>
             <title><![CDATA[Jordan's Biography]]></title>
-            <link>https://dataeraitassociation.github.io/blog/Jordan_bio</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/Jordan_bio</link>
             <guid>Jordan_bio</guid>
             <pubDate>Fri, 23 Jul 2021 03:23:08 GMT</pubDate>
             <description><![CDATA[Hi, my name is Jordan. I like to play badminton, Soccer, basketball, and tennis. Also,]]></description>
         </item>
         <item>
             <title><![CDATA[About]]></title>
-            <link>https://dataeraitassociation.github.io/blog/About</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/About</link>
             <guid>About</guid>
             <pubDate>Wed, 14 Jul 2021 16:33:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[About Tianze]]></title>
-            <link>https://dataeraitassociation.github.io/blog/about_tianze</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/about_tianze</link>
             <guid>about_tianze</guid>
             <pubDate>Wed, 14 Jul 2021 16:33:24 GMT</pubDate>
             <description><![CDATA[Hello]]></description>
         </item>
         <item>
             <title><![CDATA[Jialin - Biography]]></title>
-            <link>https://dataeraitassociation.github.io/blog/jialin_biography</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/jialin_biography</link>
             <guid>jialin_biography</guid>
             <pubDate>Wed, 14 Jul 2021 16:33:24 GMT</pubDate>
             <description><![CDATA[Hello! My name is Jialin and I am currently going to school at Lillian Osborne High School in Edmonton, Alberta. I enjoy playing badminton and volleyball and I also love reading history. My role in this project is to take a leading position in this website's development.]]></description>
         </item>
         <item>
             <title><![CDATA[About Yania]]></title>
-            <link>https://dataeraitassociation.github.io/blog/yania_biography</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/yania_biography</link>
             <guid>yania_biography</guid>
             <pubDate>Wed, 14 Jul 2021 16:33:24 GMT</pubDate>
             <description><![CDATA[Hi, my name is Yania.]]></description>
         </item>
         <item>
-            <title><![CDATA[About]]></title>
-            <link>https://dataeraitassociation.github.io/blog/hao_about</link>
-            <guid>hao_about</guid>
-            <pubDate>Wed, 14 Jul 2021 16:33:24 GMT</pubDate>
-            <description><![CDATA[Hello, I'm Hao.]]></description>
-        </item>
-        <item>
             <title><![CDATA[Edward - About Me]]></title>
-            <link>https://dataeraitassociation.github.io/blog/edward_about</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/edward_about</link>
             <guid>edward_about</guid>
             <pubDate>Wed, 14 Jul 2021 16:33:24 GMT</pubDate>
             <description><![CDATA[Hi]]></description>
         </item>
         <item>
+            <title><![CDATA[About]]></title>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/hao_about</link>
+            <guid>hao_about</guid>
+            <pubDate>Wed, 14 Jul 2021 16:33:24 GMT</pubDate>
+            <description><![CDATA[Hello, I'm Hao.]]></description>
+        </item>
+        <item>
             <title><![CDATA[Hi~]]></title>
-            <link>https://dataeraitassociation.github.io/blog/Hi~</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/Hi~</link>
             <guid>Hi~</guid>
             <pubDate>Wed, 14 Jul 2021 16:33:24 GMT</pubDate>
             <description><![CDATA[Hi~ my name is Olivia.]]></description>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://dataeraitassociation.github.io/blog/welcome</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Thu, 30 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></description>
         </item>
         <item>
             <title><![CDATA[Hello]]></title>
-            <link>https://dataeraitassociation.github.io/blog/hello-world</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/hello-world</link>
             <guid>hello-world</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2.]]></description>
         </item>
         <item>
             <title><![CDATA[Hola]]></title>
-            <link>https://dataeraitassociation.github.io/blog/hola</link>
+            <link>https://dataeraitassociation.github.io/DataEraITAssociation/blog/hola</link>
             <guid>hola</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>

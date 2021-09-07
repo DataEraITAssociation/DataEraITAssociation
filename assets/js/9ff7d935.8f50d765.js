@@ -1,1 +1,0 @@
-(self.webpackChunkdataera_final=self.webpackChunkdataera_final||[]).push([[1388],{9278:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"jenny-hua","name":"jenny hua","count":1,"permalink":"/blog/tags/jenny-hua"}')}}]);

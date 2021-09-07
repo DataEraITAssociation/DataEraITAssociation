@@ -1,0 +1,1 @@
+(self.webpackChunkdataera_final=self.webpackChunkdataera_final||[]).push([[1816],{2536:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/DataEraITAssociation/blog/tags","slug":"about-me","name":"about me","count":2,"permalink":"/DataEraITAssociation/blog/tags/about-me"}')}}]);

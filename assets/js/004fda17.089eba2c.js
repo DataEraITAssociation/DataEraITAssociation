@@ -1,0 +1,1 @@
+(self.webpackChunkdataera_final=self.webpackChunkdataera_final||[]).push([[5510],{5245:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/DataEraITAssociation/blog/tags","slug":"jialin-qiu","name":"jialin qiu","count":1,"permalink":"/DataEraITAssociation/blog/tags/jialin-qiu"}')}}]);

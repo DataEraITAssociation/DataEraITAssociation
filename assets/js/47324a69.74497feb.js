@@ -1,1 +1,0 @@
-(self.webpackChunkdataera_final=self.webpackChunkdataera_final||[]).push([[2347],{6766:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"jialin-biography","name":"jialin biography","count":1,"permalink":"/blog/tags/jialin-biography"}')}}]);

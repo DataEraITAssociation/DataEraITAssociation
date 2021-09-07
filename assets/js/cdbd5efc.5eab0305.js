@@ -1,1 +1,0 @@
-(self.webpackChunkdataera_final=self.webpackChunkdataera_final||[]).push([[9481],{8535:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"jordan-liao","name":"jordan liao","count":1,"permalink":"/blog/tags/jordan-liao"}')}}]);
