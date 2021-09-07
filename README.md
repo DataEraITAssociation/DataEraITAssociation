@@ -29,7 +29,7 @@ This command generates static content into the `build` directory and can be serv
 ```console
 GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 
-DEPLOYMENT_BRANCH=gh-pages yarn deploy
+GIT_USER=<Your GitHub username> DEPLOYMENT_BRANCH=gh-pages yarn deploy
 
 ```
 
