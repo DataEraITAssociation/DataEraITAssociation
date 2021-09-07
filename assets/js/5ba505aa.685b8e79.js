@@ -1,0 +1,1 @@
+(self.webpackChunkdataera_final=self.webpackChunkdataera_final||[]).push([[1554],{7742:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"bio","name":"bio","count":1,"permalink":"/blog/tags/bio"}')}}]);
